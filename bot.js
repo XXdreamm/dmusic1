@@ -353,7 +353,6 @@ client.user.setGame(`1play | Last Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 client.on('ready', () => {
- if(msg.content === "1join") {
 var x = client.channels.get("505369701862604825");
 if (x) x.join();
 });
